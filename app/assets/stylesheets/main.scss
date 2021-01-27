@@ -1,0 +1,17 @@
+body {
+  min-height: 100vh !important;
+  position: relative;
+  padding-bottom: 132px;
+}
+
+.active2 {
+  color: #f76108 !important;
+}
+
+.hoveractive {
+  &:hover {
+    color: #f76108 !important;
+  }
+
+  color: grey;
+}
