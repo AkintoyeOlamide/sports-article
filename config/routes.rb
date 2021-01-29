@@ -3,7 +3,7 @@ Rails.application.routes.draw do
     resources :comments, only: [:create]
   end
   resources :users, except: [ :index  ]
-  resources :categories, only: %i[new create show]
+  resources :categories, only: %i[new create show index]
   get 'logout', to: 'sessions#destroy'
   get 'login', to: 'sessions#new'
   get '/articles/:article_id/vote', to: 'votes#create', as: 'vote'

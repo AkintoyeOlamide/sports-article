@@ -15,6 +15,10 @@ class CategoriesController < ApplicationController
     @category = Category.new
   end
 
+  def index
+    @categories = Category.all
+  end
+
   # POST /categories
   # POST /categories.json
   def create

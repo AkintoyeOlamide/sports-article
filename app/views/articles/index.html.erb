@@ -12,11 +12,12 @@
         </div>
 
     </div>
-    <div class="categories row w-100 m-0">
+    <div class="categories row w-70 m-0">
+
         <% @categories.each do |category| %>
         <div class="category-container col-6 col-lg-3 p-0">
             <div class="category-image">
-            <%= category_main_image(category) %>
+                <%= category_main_image(category) %>
             </div>
             <div class="category_name">
                 <p><%= category.name%></p>
