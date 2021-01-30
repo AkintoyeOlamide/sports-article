@@ -26,6 +26,7 @@ _As an Admin user:_
 # Index Page ScreenShot
 
 ![screenshot](public/Capture.PNG)
+<img src="app/assets/images/ss.png">
 
 ## Built With
 
