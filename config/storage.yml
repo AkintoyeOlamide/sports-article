@@ -19,3 +19,6 @@ google_dev:
   project: MOVIES-LAND2
   credentials: <%= Rails.root.join("config/secrets/MOVIES-LAND.json") %>
   bucket: movies_land_717
+
+cloudinary:
+  service: Cloudinary

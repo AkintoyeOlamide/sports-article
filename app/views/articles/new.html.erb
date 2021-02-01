@@ -6,7 +6,7 @@
         <div class="article-form-top w-100 d-flex flex-column justify-content-center align-items-center ">
             <div class="article-form-top-container ">
                 <div class="image">
-                    <%= f.file_field(:image, accept: 'image/png,image/gif,image/jpeg', class: "btn mb-3 pl-0") %>
+                    <%= f.file_field(:image, accept: 'image/png,image/gif,image/jpeg',  class: "btn mb-3 pl-0") %>
                 </div>
                 <div class="category">
                     <%= f.select(:category_id,  Category.all.map{|x| [x.name,x.id]},  { include_blank: "Select category" }, { class: 'select-option' } ) %>

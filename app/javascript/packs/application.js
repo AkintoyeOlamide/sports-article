@@ -14,6 +14,8 @@ document.addEventListener("turbolinks:load", () => {
   $('[data-toggle="tooltip"]').tooltip()
   $('[data-toggle="popover"]').popover()
 })
+
+//= require activestorage
  
 
 // Uncomment to copy all static images under ../images to the output folder and reference
