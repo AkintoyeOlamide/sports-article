@@ -58,7 +58,7 @@ $ cd sports-article
 ```
 
 ```bash
-$ git clone https://github.com/AkintoyeOlamide/sports-article/tree/main
+$ git clone https://github.com/AkintoyeOlamide/sports-article
 $ cd sports-article
 $ bundle install
 $ yarn install --check-files

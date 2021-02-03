@@ -2,16 +2,16 @@
   min-height: 90vh;
 
   .category-article-container {
-    height: 45vh !important;
+    height: 45vh;
     overflow: hidden;
 
     .category-article-image {
-      height: 45vh !important;
+      height: 45vh;
 
       img {
         width: 100%;
         object-fit: cover;
-        height: 45vh !important;
+        height: 45vh;
       }
     }
 
@@ -66,11 +66,11 @@
 
 .categories {
   .category-container {
-    height: 33vh !important;
-    position: relative !important;
+    height: 33vh;
+    position: relative;
 
     .category-image {
-      height: 100% !important;
+      height: 100%;
 
       img {
         object-fit: cover;

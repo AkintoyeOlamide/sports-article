@@ -4,7 +4,7 @@
 
   a {
     img {
-      width: 100% !important;
+      width: 100%;
       height: 100%;
       object-fit: cover;
     }
@@ -56,7 +56,7 @@
 }
 
 .article-form-top {
-  height: 400px !important;
+  height: 400px ;
   background-color: whitesmoke;
 
   .article-form-top-container {
@@ -64,8 +64,8 @@
 
     .image {
       padding: 0;
-      width: 400px !important;
-      height: 50px !important;
+      width: 400px ;
+      height: 50px ;
     }
 
     .category {
@@ -118,7 +118,7 @@
   height: auto;
   font-size: 34px;
   padding: 20px;
-  margin: 40px 0 !important;
+  margin: 40px 0 ;
   font-weight: 600;
 
   .vote_container {
