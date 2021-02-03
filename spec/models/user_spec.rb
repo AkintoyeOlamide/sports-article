@@ -11,7 +11,6 @@ RSpec.describe User, type: :model do
     it { should have_many(:comments) }
   end
 
-  
   it 'User is not valid without name attribute' do
     user = User.new(name: nil)
     expect(user).to_not be_valid
