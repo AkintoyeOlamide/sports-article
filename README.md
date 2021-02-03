@@ -37,7 +37,7 @@ _As an Admin user:_
 
 ## Demo
 
-[Live link](https://desolate-coast-45080.herokuapp.com/)
+[Live link](https://sprot-articles-123.herokuapp.com/)
 
 ## Video Walkthrough of the app
 
@@ -53,6 +53,12 @@ To get a local copy of the repository please run the following commands on your 
 
 - you must have postgresql installed on your local machine.
 
+- you must make the last user an admin in the rails console.
+
+- On the Live version you have to use "admin" to login to be able to create a category in the user account.
+
+- Bullet was used to solve all the n+1 problems.
+
 ```
 $ cd sports-article
 ```
@@ -60,8 +66,8 @@ $ cd sports-article
 ```bash
 $ git clone https://github.com/AkintoyeOlamide/sports-article
 $ cd sports-article
+$ npm install
 $ bundle install
-$ yarn install --check-files
 $ rails db:create
 $ rake db:migrate
 $ rails s
