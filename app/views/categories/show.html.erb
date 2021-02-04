@@ -1,0 +1,7 @@
+<%= render  "shared/notice" %>
+<div class=" container-fluid category-container-2 m-0 p-0 w-100 row bg-white  ">
+
+    <% @articles.each do |article| %>
+    <%= category_show(article)%>
+    <%end%>
+</div>

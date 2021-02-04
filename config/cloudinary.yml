@@ -1,0 +1,6 @@
+production:
+  cloud_name: "di3kbz3xa"
+  api_key: "165841567748713"
+  api_secret: "VPgIkEWTqNIkh6MtXhW58NPqnyQ"
+  secure: true
+  cdn_subdomain: true

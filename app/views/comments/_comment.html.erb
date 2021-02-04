@@ -1,0 +1,15 @@
+<% @article.comments.each do |comment|  %>
+<div class="comment-show w-100 d-flex">
+    <div class="comment-user-image">
+
+    </div>
+    <div class="comment-content w-100 px-4">
+        <div class="comment-user-name ">
+            <%= comment.user.name %>
+        </div>
+        <div class="comment-body">
+            <%= comment.content %>
+        </div>
+    </div>
+</div>
+<% end %>
